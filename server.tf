@@ -2,7 +2,7 @@ provider "aws" {
 region = "us-east-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-077e31c4939f6a2f3"
+  ami = "ami-04902260ca3d33422"
   instance_type = "t2.small"
   key_name = "gds-import"
 
